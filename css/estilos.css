@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    font-size: 1.3rem;
+    position: fixed;
+    width: 100%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    .container-fluid{
+    padding: 0px;
+    background-color: #e6e6e6ea;
+    .collapse.navbar-collapse{
+        justify-content: end;
+    }
+                
+    }
+   
+}
+
+
+.seccionTitulo{
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(rgba(41, 41, 42, 0.740), rgba(41, 41, 42, 0.74)),url(../assets/img/bg-titulo.jpg);
+    .tituloH1Index{
+        color: #ffffff;
+        padding-top: 220px;
+        padding-left: 50px;
+    }
+}
+
