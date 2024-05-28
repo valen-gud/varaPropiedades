@@ -1,0 +1,67 @@
+/* estilos del header */
+.navbar{
+    font-size: 1.2rem;
+    width: 100%;
+    padding-top: $t-0px;
+    padding-bottom: $t-0px;
+    .container-fluid{
+    padding: $t-0px;
+    background-color: $color-fondo-link-nav;
+        .collapse.navbar-collapse{
+            justify-content: end;
+            padding-right: 10px;
+        }
+    }
+}
+
+/* estilos para todos los links */
+a{
+    text-decoration: none;
+}
+
+/* estilos footer */
+.footer{
+    background-color:$color-fondo-link-nav;
+    padding-bottom: 30px;
+    .infoFooter{
+        .row{
+            padding-top: 30px;
+        }
+        .tituloFooterIndex{
+            font-size: 1.2rem;
+            color:$color-nav-link-footer;
+        }
+        .tituloFooterIndexDistinto{
+            font-size: 1.2rem;
+            color: $color-nav-link-footer;
+            margin-top: 30px;
+        }
+        .nav-link{
+            width: 20%;
+            height: 25px;
+           color: $color-nav-link-footer; 
+           padding: $t-0px;
+           &:hover{
+            color: $color-hover-nav-link-footer;
+           }
+        }
+        .imgFooter{
+            width: 25px;
+            margin-right: 5px;
+        }
+        .divRedes{
+            .imgRedesIg{
+                width: 27px;
+                margin-right: 4px;
+            }
+            .imgRedesArgen{
+                width: 34px;
+                margin-right: 4px;
+            }
+            .imgRedesTiktok{
+                width: 27px;
+                border-radius: 4px;
+            }
+        }
+    }
+}
