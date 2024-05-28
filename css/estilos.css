@@ -4,7 +4,6 @@
 }
 .navbar{
     font-size: 1.2rem;
-    position: fixed;
     width: 100%;
     padding-top: 0px;
     padding-bottom: 0px;
@@ -16,42 +15,112 @@
             padding-right: 10px;
         }
     }
-   
 }
 
-
-.seccionTitulo{
-    width: 100%;
-    height: 500px;
-    background: linear-gradient(rgba(41, 41, 42, 0.740), rgba(41, 41, 42, 0.740)),url(../assets/img/bg-titulo.jpg);
-    .tituloH1Index{
-        color: #ffffff;
-        padding-top: 220px;
-        padding-left: 50px;
-    }
-    .btn-primary {
-        width: 120px;
-        background-color: rgba(212, 12, 12, 0);
-        color: #ffffff;
-        border: 1px solid #ffffff;
-        border-radius: 10px;
-        font-size: 16px;
-        text-align: center;
-        padding: 10px;
-        cursor: pointer;
-        margin-left: 50px;
-         &:hover {
-            color: #d0c8c8;
-            background-color: rgba(212, 12, 12, 0);
-            border-color: #ffffff
+/* estilos del main */
+.mainIndex{
+    background-color: #ebf0f7;
+    .seccionTitulo{
+        width: 100%;
+        height: 500px;
+        background: linear-gradient(rgba(41, 41, 42, 0.740), rgba(41, 41, 42, 0.740)),url(../assets/img/bg-titulo.jpg);
+        .tituloH1Index{
+            color: #ffffff;
+            padding-top: 220px;
+            padding-left: 50px;
         }
-      }
-    .parrafoSeccionTitulo{
-        color: #d0c8c8;
-        font-size: 1.2rem;
-        margin-top: 100px;
-        margin-right: 20px;
-        text-align: end;
+        .btn-primary {
+            width: 120px;
+            background-color: rgba(212, 12, 12, 0);
+            color: #ffffff;
+            border: 1px solid #ffffff;
+            border-radius: 10px;
+            font-size: 16px;
+            text-align: center;
+            padding: 10px;
+            margin-left: 50px;
+            &:hover {
+                color: #d0c8c8;
+                background-color: rgba(212, 12, 12, 0);
+                border-color: #ffffff
+            }
+        }
+        .parrafoSeccionTitulo{
+            color: #d0c8c8;
+            font-size: 1.2rem;
+            margin-top: 100px;
+            margin-right: 20px;
+            text-align: end;
+        }
+    }
+    .titulosH2{
+        margin-top: 70px;
+        color: #1e1e1e;
+        text-align: center;
+        .lineaTitulos{
+            width: 120px;
+            border: 2px solid #154B89;
+            border-radius: 12px;
+            margin: 10px auto 50px auto;
+            text-align: center;
+        }
+    }
+    .seccionLlamadoALaAccion{
+        padding-left: 40px;
+        .card{
+            box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.6)
+        }
+        .card-title{
+            text-align: center;
+            color: #1e1e1e;
+        }
+    }
+    .container{
+        .tituloh3Index{
+            color: #1e1e1e;
+            padding-bottom: 10px;
+        }
+        .negrita{
+            font-weight: bold;
+            color: #61646F;
+        }
+        .quienesSomos{
+            padding-bottom: 40px;
+        }
+        .nuestroServicio{
+            padding-bottom: 40px;
+        }
     }
 }
+/* estilos para todos los links */
+a{
+    text-decoration: none;
+}
 
+/* estilos footer */
+.footer{
+    background-color:#e6e6e6ea;
+    .infoFooter{
+        .row{
+            padding-top: 30px;
+        }
+        .tituloFooterIndex{
+            font-size: 1.2rem;
+            color: #1e1e1e;
+        }
+        .tituloFooterIndexDistinto{
+            font-size: 1.2rem;
+            color: #1e1e1e;
+            margin-top: 30px;
+        }
+        .nav-link{
+            width: 20%;
+            height: 25px;
+           color: #495057; 
+           padding: 0;
+           &:hover{
+            color: #79828c;
+           }
+        }
+    }
+}
