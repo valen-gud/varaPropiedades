@@ -6,7 +6,7 @@
 body {
   background-color: #ebf0f7;
   font-family: "Roboto", sans-serif;
-  color: hsl(0, 0%, 12%);
+  color: #1e1e1e;
 }
 
 /* estilos del header */
@@ -28,6 +28,19 @@ body {
 /* estilos para todos los links */
 a {
   text-decoration: none;
+}
+
+.seccionTituloh1 {
+  width: 100%;
+  height: 250px;
+  background: linear-gradient(rgba(41, 41, 42, 0.7411764706), rgba(40, 40, 41, 0.4470588235)), url(../assets/img/tarjetas1.jpg);
+  background-size: 100%;
+  background-attachment: fixed;
+}
+.seccionTituloh1 .tituloH1 {
+  color: #ffffff;
+  padding-top: 100px;
+  padding-left: 50px;
 }
 
 /* estilos footer */
@@ -56,9 +69,12 @@ a {
 .footer .infoFooter .nav-link:hover {
   color: #79828c;
 }
-.footer .infoFooter .imgFooter {
+.footer .infoFooter .divFooter .imgFooter {
   width: 25px;
   margin-right: 5px;
+}
+.footer .infoFooter .divFooter .parrafoFooter {
+  color: #495057;
 }
 .footer .infoFooter .divRedes .imgRedesIg {
   width: 27px;
@@ -80,7 +96,7 @@ a {
 .mainIndex .seccionTitulo {
   width: 100%;
   height: 500px;
-  background: linear-gradient(rgba(41, 41, 42, 0.74), rgba(41, 41, 42, 0.74)), url(../assets/img/bg-titulo.jpg);
+  background: linear-gradient(rgba(41, 41, 42, 0.7411764706), rgba(41, 41, 42, 0.7411764706)), url(../assets/img/bg-titulo.jpg);
 }
 .mainIndex .seccionTitulo .tituloH1Index {
   color: #ffffff;
@@ -112,7 +128,7 @@ a {
 }
 .mainIndex .titulosH2 {
   margin-top: 70px;
-  color: hsl(0, 0%, 12%);
+  color: #1e1e1e;
   text-align: center;
 }
 .mainIndex .titulosH2 .lineaTitulos {
@@ -131,10 +147,10 @@ a {
 }
 .mainIndex .seccionLlamadoALaAccion .card-title {
   text-align: center;
-  color: hsl(0, 0%, 12%);
+  color: #1e1e1e;
 }
 .mainIndex .container .tituloh3Index {
-  color: hsl(0, 0%, 12%);
+  color: #1e1e1e;
   padding-bottom: 10px;
 }
 .mainIndex .container .negrita {

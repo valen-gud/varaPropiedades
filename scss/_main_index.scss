@@ -2,24 +2,24 @@
 .mainIndex{
     background-color: $color-fondo-main;
     .seccionTitulo{
-        width: 100%;
-        height: 500px;
-        background: linear-gradient(rgba(41, 41, 42, 0.740), rgba(41, 41, 42, 0.740)),url(../assets/img/bg-titulo.jpg);
+        width: $t-100por;
+        height: $t-500px;
+        background: linear-gradient(#29292abd, #29292abd),url(../assets/img/bg-titulo.jpg);
         .tituloH1Index{
             color: $color-blanco;
-            padding-top: 220px;
-            padding-left: 50px;
+            padding-top: $t-220px;
+            padding-left: $t-50px;
         }
         .btn-primary {
-            width: 120px;
+            width: $t-120px;
             background-color: rgba(212, 12, 12, 0);
             color: $color-blanco;
-            border: 1px solid $color-blanco;
-            border-radius: 10px;
-            font-size: 16px;
+            border: $t-1px solid $color-blanco;
+            border-radius: $t-10px;
+            font-size: $t-16px;
             text-align: center;
-            padding: 10px;
-            margin-left: 50px;
+            padding: $t-10px;
+            margin-left: $t-50px;
             &:hover {
                 color: $color-gris-clarito;
                 background-color: rgba(212, 12, 12, 0);
@@ -28,29 +28,29 @@
         }
         .parrafoSeccionTitulo{
             color: $color-gris-clarito;
-            font-size: 1.2rem;
-            margin-top: 100px;
-            margin-right: 20px;
+            font-size: $t-un-dos-rem;
+            margin-top: $t-100px;
+            margin-right: $t-20px;
             text-align: end;
         }
     }
     .titulosH2{
-        margin-top: 70px;
+        margin-top: $t-70px;
         color: $color-fuente-comun;
         text-align: center;
         .lineaTitulos{
             color: $color-azul-vara-propiedades;
-            width: 120px;
-            border: 2px solid;
-            border-radius: 12px;
-            margin: 10px auto 50px auto;
+            width: $t-120px;
+            border: $t-2px solid;
+            border-radius: $t-12px;
+            margin: $t-10px auto $t-50px auto;
             text-align: center;
         }
     }
     .seccionLlamadoALaAccion{
-        padding-left: 40px;
+        padding-left: $t-40px;
         .card{
-            box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.6)
+            box-shadow: $t-4px $t-4px $t-10px rgba(0, 0, 0, 0.6)
         }
         .card-title{
             text-align: center;
@@ -60,17 +60,17 @@
     .container{
         .tituloh3Index{
             color: $color-fuente-comun;
-            padding-bottom: 10px;
+            padding-bottom: $t-10px;
         }
         .negrita{
             font-weight: bold;
             color: $color-azul-vara-propiedades;
         }
         .quienesSomos{
-            padding-bottom: 40px;
+            padding-bottom: $t-40px;
         }
         .nuestroServicio{
-            padding-bottom: 40px;
+            padding-bottom: $t-40px;
         }
     }
 }

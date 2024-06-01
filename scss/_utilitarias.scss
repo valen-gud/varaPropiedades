@@ -1,7 +1,7 @@
 /* estilos del header */
 .navbar{
-    font-size: 1.2rem;
-    width: 100%;
+    font-size: $t-un-dos-rem;
+    width: $t-100por;
     padding-top: $t-0px;
     padding-bottom: $t-0px;
     .container-fluid{
@@ -9,7 +9,7 @@
     background-color: $color-fondo-link-nav;
         .collapse.navbar-collapse{
             justify-content: end;
-            padding-right: 10px;
+            padding-right:$t-10px;
         }
     }
 }
@@ -18,49 +18,68 @@
 a{
     text-decoration: none;
 }
+// estilos de todos los h1
+.seccionTituloh1{
+    width: $t-100por;
+    height: $t-250px;
+    background: linear-gradient(#29292abd, #28282972),url(../assets/img/tarjetas1.jpg);
+    background-size: $t-100por;
+    background-attachment:fixed;
+    .tituloH1{
+        color: $color-blanco;
+        padding-top: $t-100px;
+        padding-left: $t-50px;
+    }
+}
 
 /* estilos footer */
 .footer{
     background-color:$color-fondo-link-nav;
-    padding-bottom: 30px;
+    padding-bottom: $t-30px;
     .infoFooter{
         .row{
-            padding-top: 30px;
+            padding-top: $t-30px;
         }
         .tituloFooterIndex{
-            font-size: 1.2rem;
+            font-size: $t-un-dos-rem;
             color:$color-nav-link-footer;
         }
         .tituloFooterIndexDistinto{
-            font-size: 1.2rem;
+            font-size: $t-un-dos-rem;
             color: $color-nav-link-footer;
-            margin-top: 30px;
+            margin-top: $t-30px;
         }
         .nav-link{
-            width: 20%;
-            height: 25px;
+            width: $t-20por;
+            height: $t-25px;
            color: $color-nav-link-footer; 
            padding: $t-0px;
            &:hover{
             color: $color-hover-nav-link-footer;
            }
         }
-        .imgFooter{
-            width: 25px;
-            margin-right: 5px;
+        .divFooter{
+            .imgFooter{
+            width: $t-25px;
+            margin-right: $t-5px;
+            }
+            .parrafoFooter{
+                color: $color-nav-link-footer;
+            }
         }
+        
         .divRedes{
             .imgRedesIg{
-                width: 27px;
-                margin-right: 4px;
+                width: $t-27px;
+                margin-right: $t-4px;
             }
             .imgRedesArgen{
-                width: 34px;
-                margin-right: 4px;
+                width: $t-34px;
+                margin-right: $t-4px;
             }
             .imgRedesTiktok{
-                width: 27px;
-                border-radius: 4px;
+                width: $t-27px;
+                border-radius: $t-4px;
             }
         }
     }
