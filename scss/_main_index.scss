@@ -34,23 +34,16 @@
             text-align: end;
         }
     }
-    .titulosH2{
-        margin-top: $t-70px;
-        color: $color-fuente-comun;
-        text-align: center;
-        .lineaTitulos{
-            color: $color-azul-vara-propiedades;
-            width: $t-120px;
-            border: $t-2px solid;
-            border-radius: $t-12px;
-            margin: $t-10px auto $t-50px auto;
-            text-align: center;
-        }
-    }
+    
     .seccionLlamadoALaAccion{
         padding-left: $t-40px;
         .card{
-            box-shadow: $t-4px $t-4px $t-10px rgba(0, 0, 0, 0.6)
+            border-radius: $t-10px;
+            box-shadow: $t-4px $t-4px $t-5px rgba(0, 0, 0, 0.6)
+           
+        }
+        .imgCard{
+            border-radius: $t-10px;
         }
         .card-title{
             text-align: center;
@@ -61,10 +54,6 @@
         .tituloh3Index{
             color: $color-fuente-comun;
             padding-bottom: $t-10px;
-        }
-        .negrita{
-            font-weight: bold;
-            color: $color-azul-vara-propiedades;
         }
         .quienesSomos{
             padding-bottom: $t-40px;

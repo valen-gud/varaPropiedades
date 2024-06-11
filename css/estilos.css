@@ -33,7 +33,7 @@ a {
 .seccionTituloh1 {
   width: 100%;
   height: 250px;
-  background: linear-gradient(rgba(41, 41, 42, 0.7411764706), rgba(40, 40, 41, 0.4470588235)), url(../assets/img/tarjetas1.jpg);
+  background: linear-gradient(rgba(41, 41, 42, 0.7411764706), rgba(40, 40, 41, 0.4470588235)), url(../assets/img/tarjetas2.jpg);
   background-size: 100%;
   background-attachment: fixed;
 }
@@ -41,6 +41,32 @@ a {
   color: #ffffff;
   padding-top: 100px;
   padding-left: 50px;
+}
+
+.titulosH2 {
+  margin-top: 70px;
+  color: #1e1e1e;
+  text-align: center;
+}
+.titulosH2 .lineaTitulos {
+  color: #154B89;
+  width: 120px;
+  border: 2px solid;
+  border-radius: 12px;
+  margin: 10px auto 50px auto;
+  text-align: center;
+}
+
+.tituloH3 {
+  color: #1e1e1e;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.negrita {
+  font-weight: bold;
+  color: #154B89;
 }
 
 /* estilos footer */
@@ -126,24 +152,15 @@ a {
   margin-right: 20px;
   text-align: end;
 }
-.mainIndex .titulosH2 {
-  margin-top: 70px;
-  color: #1e1e1e;
-  text-align: center;
-}
-.mainIndex .titulosH2 .lineaTitulos {
-  color: #154B89;
-  width: 120px;
-  border: 2px solid;
-  border-radius: 12px;
-  margin: 10px auto 50px auto;
-  text-align: center;
-}
 .mainIndex .seccionLlamadoALaAccion {
   padding-left: 40px;
 }
 .mainIndex .seccionLlamadoALaAccion .card {
-  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.6);
+}
+.mainIndex .seccionLlamadoALaAccion .imgCard {
+  border-radius: 10px;
 }
 .mainIndex .seccionLlamadoALaAccion .card-title {
   text-align: center;
@@ -153,15 +170,36 @@ a {
   color: #1e1e1e;
   padding-bottom: 10px;
 }
-.mainIndex .container .negrita {
-  font-weight: bold;
-  color: #154B89;
-}
 .mainIndex .container .quienesSomos {
   padding-bottom: 40px;
 }
 .mainIndex .container .nuestroServicio {
   padding-bottom: 40px;
+}
+
+.imgInmoviliaria {
+  width: 500px;
+  height: 400px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin: 30px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.6);
+}
+
+.seccionNosotros .divNosotros {
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  background-image: linear-gradient(to bottom, rgba(97, 100, 111, 0.3803921569), rgba(97, 100, 111, 0.062745098));
+  margin-bottom: 30px;
+}
+
+.container-fluid .parrafoNosotros {
+  text-align: left;
+  padding-left: 35px;
+}
+.container-fluid .iframeNosotros {
+  padding-left: 35px;
+  margin-bottom: 50px;
 }
 
 /*# sourceMappingURL=estilos.css.map */

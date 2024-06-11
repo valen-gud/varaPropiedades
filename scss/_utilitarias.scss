@@ -18,11 +18,11 @@
 a{
     text-decoration: none;
 }
-// estilos de todos los h1
+// estilos de todos los h1 menos index
 .seccionTituloh1{
     width: $t-100por;
     height: $t-250px;
-    background: linear-gradient(#29292abd, #28282972),url(../assets/img/tarjetas1.jpg);
+    background: linear-gradient(#29292abd, #28282972),url(../assets/img/tarjetas2.jpg);
     background-size: $t-100por;
     background-attachment:fixed;
     .tituloH1{
@@ -30,6 +30,34 @@ a{
         padding-top: $t-100px;
         padding-left: $t-50px;
     }
+}
+
+// estilos de todos los titulos h2
+.titulosH2{
+    margin-top: $t-70px;
+    color: $color-fuente-comun;
+    text-align: center;
+    .lineaTitulos{
+        color: $color-azul-vara-propiedades;
+        width: $t-120px;
+        border: $t-2px solid;
+        border-radius: $t-12px;
+        margin: $t-10px auto $t-50px auto;
+        text-align: center;
+    }
+}
+
+// estilos de todos los titulos 
+.tituloH3{
+    color: $color-fuente-comun;
+    padding-top: $t-60px;
+    padding-bottom: $t-30px;
+    text-align: center;
+}
+// estilos de todas las palabras en negrita
+.negrita{
+    font-weight: bold;
+    color: $color-azul-vara-propiedades;
 }
 
 /* estilos footer */

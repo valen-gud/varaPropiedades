@@ -1,0 +1,31 @@
+// estilos de las img
+.imgInmoviliaria{
+    width: $t-500px;
+    height: $t-400px;
+    border-radius: $t-10px;
+    object-fit: cover;
+    margin: $t-30px;
+    box-shadow:  $t-1px $t-1px $t-5px rgba(0, 0, 0, 0.6)
+} 
+
+// estilos seccion nosotros
+.seccionNosotros{
+    .divNosotros{
+        box-shadow: $t-4px $t-4px $t-8px rgba(0, 0, 0, 0.6);
+        border-radius: $t-10px;
+        background-image: linear-gradient(to bottom, $color-gris-difuminado-vara-propiedades, $color-gris-difuminadoclarito-vara-propiedades);
+        margin-bottom: $t-30px;
+    }
+}
+// estilo del parrafo pag. nosotros
+.container-fluid{
+    .parrafoNosotros{
+        text-align: left;
+        padding-left: $t-35px;
+    }
+    .iframeNosotros{
+        padding-left: $t-35px;
+        margin-bottom: $t-50px;
+    }
+
+}
