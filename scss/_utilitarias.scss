@@ -30,6 +30,20 @@ a{
         padding-top: $t-100px;
         padding-left: $t-50px;
     }
+    .parrafoSeccionTitulo{
+        color: $color-gris-clarito;
+        font-size: $t-un-dos-rem;
+        margin-top: $t-70px;
+        margin-right: $t-20px;
+        text-align: end;
+    }
+    .parrafoSeccionTituloCorto{
+        color: $color-gris-clarito;
+        font-size: $t-un-dos-rem;
+        margin-top: $t-22px;
+        margin-right: $t-20px;
+        text-align: end;
+    }
 }
 
 // estilos de todos los titulos h2
@@ -56,8 +70,11 @@ a{
 }
 // estilos de todas las palabras en negrita
 .negrita{
-    font-weight: bold;
+    font-weight: $t-bold;
     color: $color-azul-vara-propiedades;
+}
+.bold{
+    font-weight: $t-bold;
 }
 
 /* estilos footer */

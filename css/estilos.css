@@ -42,6 +42,20 @@ a {
   padding-top: 100px;
   padding-left: 50px;
 }
+.seccionTituloh1 .parrafoSeccionTitulo {
+  color: #d0c8c8;
+  font-size: 1.2rem;
+  margin-top: 70px;
+  margin-right: 20px;
+  text-align: end;
+}
+.seccionTituloh1 .parrafoSeccionTituloCorto {
+  color: #d0c8c8;
+  font-size: 1.2rem;
+  margin-top: 22px;
+  margin-right: 20px;
+  text-align: end;
+}
 
 .titulosH2 {
   margin-top: 70px;
@@ -67,6 +81,10 @@ a {
 .negrita {
   font-weight: bold;
   color: #154B89;
+}
+
+.bold {
+  font-weight: bold;
 }
 
 /* estilos footer */
