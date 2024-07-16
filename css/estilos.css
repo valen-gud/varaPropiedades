@@ -220,4 +220,60 @@ a {
   margin-bottom: 50px;
 }
 
+.seccionDeptos {
+  margin-left: 50px;
+  width: 1300px;
+  height: 800px;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  background-image: linear-gradient(to bottom, rgba(97, 100, 111, 0.3803921569), rgba(97, 100, 111, 0.062745098));
+  margin-bottom: 30px;
+  padding-top: 40px;
+  padding-left: 30px;
+  padding-bottom: 30px;
+}
+.seccionDeptos .imgCarrusel {
+  width: 600px;
+  height: 600px;
+  object-fit: cover;
+  padding-bottom: 30px;
+}
+.seccionDeptos .tituloH3Comprar {
+  color: #1e1e1e;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.seccionDeptos .tituloH4Comprar {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.seccionDeptos .divVectores {
+  margin-top: 30px;
+}
+.seccionDeptos .divVectores .imgVectores {
+  padding-left: 40px;
+}
+.seccionDeptos .divVectores .pDormitorio {
+  margin-left: 10px;
+}
+.seccionDeptos .divVectores .pAnios {
+  margin-left: 25px;
+}
+.seccionDeptos .divVectores .pBanio {
+  margin-left: 2 27px;
+}
+.seccionDeptos .divVectores .pAmbiente {
+  margin-left: 10px;
+}
+.seccionDeptos .divVectores .pLugar {
+  margin-left: 2 27px;
+}
+.seccionDeptos .divVectores .pMascotas {
+  margin-left: 2 27px;
+}
+.seccionDeptos .divDescripcion {
+  margin-top: 20px;
+}
+
 /*# sourceMappingURL=estilos.css.map */
