@@ -222,7 +222,7 @@ a {
 
 .seccionDeptos {
   margin-left: 50px;
-  width: 1300px;
+  width: 1150px;
   height: 800px;
   box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
   border-radius: 10px;
@@ -274,6 +274,9 @@ a {
 }
 .seccionDeptos .divDescripcion {
   margin-top: 20px;
+}
+.seccionDeptos .mapa {
+  padding-bottom: 30px;
 }
 
 /*# sourceMappingURL=estilos.css.map */

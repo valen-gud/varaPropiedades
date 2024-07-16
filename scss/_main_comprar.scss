@@ -1,7 +1,7 @@
 // estilos del carrousel
 .seccionDeptos{
     margin-left: $t-50px;
-    width: $t-1300px;
+    width: $t-1150px;
     height: $t-800px;
     box-shadow: $t-4px $t-4px $t-8px rgba(0, 0, 0, 0.6);
     border-radius: $t-10px;
@@ -53,5 +53,8 @@
     }
     .divDescripcion{
         margin-top: $t-20px;
+    }
+    .mapa{
+        padding-bottom: 30px;
     }
 }
