@@ -230,6 +230,7 @@ a {
   margin-bottom: 30px;
   padding-top: 40px;
   padding-left: 30px;
+  padding-right: 30px;
   padding-bottom: 30px;
 }
 .seccionDeptos .imgCarrusel {
@@ -240,8 +241,6 @@ a {
 }
 .seccionDeptos .tituloH3Comprar {
   color: #1e1e1e;
-  padding-top: 30px;
-  padding-bottom: 20px;
   text-align: center;
 }
 .seccionDeptos .tituloH4Comprar {
@@ -277,6 +276,78 @@ a {
 }
 .seccionDeptos .mapa {
   padding-bottom: 30px;
+}
+
+.seccionDeptos2 {
+  background-image: linear-gradient(to bottom, rgba(97, 100, 111, 0.3803921569), rgba(97, 100, 111, 0.062745098));
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
+.seccionDeptos2 .tituloH3Comprar {
+  color: #1e1e1e;
+  text-align: center;
+}
+.seccionDeptos2 .tituloH4Comprar {
+  text-align: center;
+  margin-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.seccionDeptos2 .carrusel2 {
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 100%;
+  height: 500px;
+}
+.seccionDeptos2 .carrusel2 .imgCarrusel2 {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+@media screen and (max-width: 768px) {
+  .seccionDeptos2 .carrusel2 {
+    width: 100%;
+    height: 300px;
+  }
+}
+.seccionDeptos2 .divVectores {
+  padding-left: 100px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.seccionDeptos2 .divVectores .imgVectores {
+  padding-left: 40px;
+}
+.seccionDeptos2 .divVectores .pDormitorio {
+  margin-left: 10px;
+}
+.seccionDeptos2 .divVectores .pAnios {
+  margin-left: 25px;
+}
+.seccionDeptos2 .divVectores .pBanio {
+  margin-left: 30px;
+}
+.seccionDeptos2 .divVectores .pAmbiente {
+  margin-left: 10px;
+}
+.seccionDeptos2 .divVectores .pLugar {
+  margin-left: 30px;
+}
+.seccionDeptos2 .divVectores .pMascotas {
+  margin-left: 27px;
+}
+.seccionDeptos2 .divDescripcion {
+  margin-top: 20px;
+}
+.seccionDeptos2 .mapa {
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 /*# sourceMappingURL=estilos.css.map */
