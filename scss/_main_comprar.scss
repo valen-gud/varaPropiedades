@@ -1,64 +1,4 @@
 // estilos del carrousel
-.seccionDeptos{
-    margin-left: $t-50px;
-    width: $t-1150px;
-    height: $t-800px;
-    box-shadow: $t-4px $t-4px $t-8px rgba(0, 0, 0, 0.6);
-    border-radius: $t-10px;
-    background-image: linear-gradient(to bottom, $color-gris-difuminado-vara-propiedades, $color-gris-difuminadoclarito-vara-propiedades);
-    margin-bottom: $t-30px;
-    padding-top: $t-40px;
-    padding-left: $t-30px;
-    padding-right: $t-30px;
-    padding-bottom: $t-30px;
-    .imgCarrusel{ 
-        width: $t-600px;
-        height: $t-600px;
-        object-fit:cover;
-        padding-bottom: $t-30px;
-    }
-    .tituloH3Comprar{
-    color: $color-fuente-comun;
-    text-align: center;
-    }
-    .tituloH4Comprar{
-        text-align: center;
-        margin-bottom: $t-10px;
-    }
-    .divVectores{
-        margin-top:$t-30px;
-        .imgVectores{
-            padding-left: $t-40px;
-            
-        }
-        .pDormitorio{
-            margin-left: $t-10px;
-        }
-        .pAnios{
-            margin-left: $t-25px;
-        }
-        .pBanio{
-            margin-left: 2$t-27px;
-        }
-        .pAmbiente{
-            margin-left: $t-10px;
-        }
-        .pLugar{
-            margin-left: 2$t-27px;
-        }
-        .pMascotas{
-            margin-left: 2$t-27px;
-        }
-    }
-    .divDescripcion{
-        margin-top: $t-20px;
-    }
-    .mapa{
-        padding-bottom: 30px;
-    }
-    
-    
-}
 
 .seccionDeptos2{
     
@@ -91,7 +31,13 @@
             width: 100%;
             height: 100%;
             object-fit:fill;
+            
         }
+        .imgCarrusel3{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            }
         @media screen and (max-width: 768px){
             width: 100%;
             height: 300px;
@@ -121,7 +67,10 @@
             margin-left: $t-30px;
         }
         .pMascotas{
-            margin-left: $t-27px;
+            
+        }
+        .pCochera{
+            margin-left: $t-20px;
         }
     }
     .divDescripcion{
@@ -133,3 +82,4 @@
         padding-right: $t-30px;
     }
 }
+
