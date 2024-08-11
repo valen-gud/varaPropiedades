@@ -288,6 +288,12 @@ a {
 .seccionDeptos2 .divVectores .pCochera {
   margin-left: 20px;
 }
+.seccionDeptos2 .divVectores .pTerreno {
+  margin-left: 27px;
+}
+.seccionDeptos2 .divVectores .pMetros {
+  margin-left: 20px;
+}
 .seccionDeptos2 .divDescripcion {
   margin-top: 20px;
 }
