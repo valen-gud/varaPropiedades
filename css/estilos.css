@@ -294,6 +294,30 @@ a {
 .seccionDeptos2 .divVectores .pMetros {
   margin-left: 20px;
 }
+.seccionDeptos2 .divVectores .imgCasa {
+  margin-left: 35px;
+}
+.seccionDeptos2 .divVectores .pEste {
+  margin-left: 40px;
+}
+.seccionDeptos2 .divVectores .igTerreno {
+  margin-left: 27px;
+}
+.seccionDeptos2 .divVectores .pCochera {
+  margin-left: 25px;
+}
+.seccionDeptos2 .divVectores .pEstacionar {
+  margin-left: 40px;
+}
+.seccionDeptos2 .divVectores .pCoche {
+  margin-left: 16px;
+}
+.seccionDeptos2 .divVectores .pEspacioCoche {
+  margin-left: 35px;
+}
+.seccionDeptos2 .divVectores .pOrientacion {
+  margin-left: 20px;
+}
 .seccionDeptos2 .divDescripcion {
   margin-top: 20px;
 }
