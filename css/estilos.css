@@ -318,6 +318,12 @@ a {
 .seccionDeptos2 .divVectores .pOrientacion {
   margin-left: 20px;
 }
+.seccionDeptos2 .divVectores .pOficina {
+  margin-left: 27px;
+}
+.seccionDeptos2 .divVectores .pBanioIndependiente {
+  margin-right: 27px;
+}
 .seccionDeptos2 .divDescripcion {
   margin-top: 20px;
 }
@@ -325,6 +331,12 @@ a {
   padding-bottom: 30px;
   padding-left: 30px;
   padding-right: 30px;
+}
+
+.imgError {
+  width: 400px;
+  height: 400px;
+  margin: 50px;
 }
 
 /*# sourceMappingURL=estilos.css.map */
