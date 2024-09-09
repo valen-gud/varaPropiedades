@@ -324,6 +324,21 @@ a {
 .seccionDeptos2 .divVectores .pBanioIndependiente {
   margin-right: 27px;
 }
+.seccionDeptos2 .divVectores .pPh {
+  margin-left: 45px;
+}
+.seccionDeptos2 .divVectores .pLocal {
+  margin-left: 35px;
+}
+.seccionDeptos2 .divVectores .pViaPublica {
+  margin-left: 16px;
+}
+.seccionDeptos2 .divVectores .pPlanta {
+  margin-left: 27px;
+}
+.seccionDeptos2 .divVectores .pEdificio {
+  margin-left: 27px;
+}
 .seccionDeptos2 .divDescripcion {
   margin-top: 20px;
 }
